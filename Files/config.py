@@ -61,6 +61,6 @@ class Protocols:
                     self.__trojan.add(link.strip())
 
 
-channels = open('channels.lst', 'r')
+channels = open('Files/channels.lst', 'r')
 channels = [i.strip() for i in channels.readlines() if i != '\n']
 check_node = 'https://reverent-khayyam-zlyspjbuw.liara.run/api/tcp/'
